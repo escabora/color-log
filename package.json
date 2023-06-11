@@ -1,6 +1,6 @@
 {
-  "name": "log-color",
-  "version": "1.0.0",
+  "name": "color-logs",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
