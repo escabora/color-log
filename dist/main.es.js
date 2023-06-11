@@ -1,4 +1,4 @@
-const o = {
+const colors = {
   Reset: "\x1B[0m",
   Bright: "\x1B[1m",
   Dim: "\x1B[2m",
@@ -27,17 +27,19 @@ const o = {
   error: "\x1B[1m\x1B[41m\x1B[37m",
   success: "\x1B[1m\x1B[42m",
   warning: "\x1B[1m\x1B[43m\x1B[37m"
-}, a = ["success", "warning", "error"], l = (B) => B.charAt(0).toUpperCase() + B.slice(1);
-function r(B, e, g) {
-  const m = B.toLowerCase(), n = l(B);
-  a.includes(m) ? console.log(
-    `${[m].map((s) => o[s]).join("")}${n}\x1B[0m`,
-    e
-  ) : console.log(
-    `${g.map((x) => o[x]).join("")}${B}\x1B[0m`,
-    e
-  );
-}
-export {
-  r as default
 };
+const infoDefault = ["success", "warning", "error"];
+const capitalize = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
+function log(info, data, types) {
+  const lowerCaseInfo = info.toLowerCase();
+  const capitalizeInfo = capitalize(info);
+  if (infoDefault.includes(lowerCaseInfo)) {
+    const typeLog = [lowerCaseInfo];
+    console.log(`${typeLog.map((type) => colors[type]).join("")}${capitalizeInfo}\x1B[0m`, data);
+  } else {
+    console.log(`${types.map((type) => colors[type]).join("")}${info}\x1B[0m`, data);
+  }
+}
+export { log as default };

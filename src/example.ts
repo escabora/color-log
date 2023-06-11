@@ -1,4 +1,4 @@
-import log from './index';
+import log from './main';
 
 const typeLog = ['BgBlue', 'Bright', 'FgWhite'];
 log('Test Custom Log', {key: 'test custom data'}, typeLog);
