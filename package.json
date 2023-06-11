@@ -1,6 +1,5 @@
 {
   "name": "color-log-package",
-  "private": true,
   "version": "1.0.3",
   "exports": {
     ".": {
