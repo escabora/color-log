@@ -1,3 +1,3 @@
-# Color Logs Plugin
+# Color Log Package
 
 In progress...
