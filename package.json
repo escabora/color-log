@@ -1,5 +1,5 @@
 {
-  "name": "logcolors",
+  "name": "plugin-color-log",
   "version": "1.0.1",
   "type": "module",
   "scripts": {
