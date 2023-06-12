@@ -11,9 +11,7 @@ The creation of this package is to help identify precious logs in applications
 
 ```javascript
 yarn add color-log-package
-
 //- or
-
 npm install color-log-package
 ```
 
