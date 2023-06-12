@@ -25,46 +25,48 @@ log('Warning', data)
 log('Error', data)
 ```
 Output:
-The second you can define the color, the styles and the message that will be displayed.
+![default](/imgs/default.png)
+
+The second you can define the color, the styles and the message that will be displayed. Just passing an array with the styles you want
+
 ```javascript
 import log from 'color-log-package'
 
 const data = { key: 'test' }
-setupColor = ['BgBlue', 'Bright', 'FgWhite'];
+const setupColor = ['BgBlue', 'Bright', 'FgWhite'];
 
-log('Test Custom Log', data, typeLog);
+log('Test Custom Log', data, setupColor);
 
 ```
-
+![custom](/imgs/custom.png)
 Use our list below to find out what color and style parameters you can use:
 
 | parameter    	| output 	|
 |--------------	|--------	|
-| `Reset`      	|        	|
-| `Bright`     	|        	|
-| `Dim`        	|        	|
-| `Underscore` 	|        	|
-| `Blink`      	|        	|
-| `Reverse`    	|        	|
-| `Hidden`     	|        	|
-| `FgBlack`    	|        	|
-| `FgRed`      	|        	|
-| `FgGreen`    	|        	|
-| `FgYellow`   	|        	|
-| `FgBlue`     	|        	|
-| `FgMagenta`  	|        	|
-| `FgCyan`     	|        	|
-| `FgWhite`    	|        	|
-| `FgGray`     	|        	|
-| `BgBlack`    	|        	|
-| `BgBlack`    	|        	|
-| `BgGreen`    	|        	|
-| `BgYellow`   	|        	|
-| `BgBlue`     	|        	|
-| `BgMagenta`  	|        	|
-| `BgCyan`     	|        	|
-| `BgWhite`    	|        	|
-| `BgGray`     	|        	|
+| `Reset`      	| ![Reset](/imgs/Reset.png)      |
+| `Bright`     	| ![Bright](/imgs/Bright.png)      |
+| `Dim`        	| ![Dim](/imgs/Dim.png)      |
+| `Underscore` 	| ![Underscore](/imgs/Underscore.png)      |
+| `Blink`      	| ![Blink](/imgs/Blink.png)      |
+| `Reverse`    	| ![Reverse](/imgs/Reverse.png)      |
+| `Hidden`     	| ![Hidden](/imgs/Hidden.png)      |
+| `FgBlack`    	| ![FgBlack](/imgs/FgBlack.png)      |
+| `FgRed`      	| ![FgRed](/imgs/FgRed.png)      |
+| `FgGreen`    	| ![FgGreen](/imgs/FgGreen.png)      |
+| `FgYellow`   	| ![FgYellow](/imgs/FgYellow.png)      |
+| `FgBlue`     	| ![FgBlue](/imgs/FgBlue.png)      |
+| `FgMagenta`  	| ![FgBlue](/imgs/FgBlue.png)      |
+| `FgCyan`     	| ![FgCyan](/imgs/FgCyan.png)      |
+| `FgWhite`    	| ![FgWhite](/imgs/FgWhite.png)      |
+| `FgGray`     	| ![FgGray](/imgs/FgGray.png)      |
+| `BgBlack`    	| ![BgBlack](/imgs/BgBlack.png)      |
+| `BgGreen`    	| ![BgGreen](/imgs/BgGreen.png)      |
+| `BgYellow`   	| ![BgYellow](/imgs/BgYellow.png)      |
+| `BgBlue`     	| ![BgBlue](/imgs/BgBlue.png)      |
+| `BgMagenta`  	| ![BgMagenta](/imgs/BgMagenta.png)      |
+| `BgCyan`     	| ![BgCyan](/imgs/BgCyan.png)      |
+| `BgWhite`    	| ![BgWhite](/imgs/BgWhite.png)      |
+| `BgGray`     	| ![BgGray](/imgs/BgGray.png)      |
 
 ## License
 
