@@ -1,3 +1,8 @@
+[![Version](https://img.shields.io/npm/v/color-log-package.svg)](https://www.npmjs.com/package/color-log-package)
+[![Downloads Total](https://img.shields.io/npm/dt/color-log-package.svg)](https://www.npmjs.com/package/color-log-package)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/escabora/color-log-package/blob/main/LICENSE.md)
+[![CodeFactor](https://www.codefactor.io/repository/github/escabora/color-log-package/badge)](https://www.codefactor.io/repository/github/escabora/color-log-package)
+
 # Color Log Package
 
 The creation of this package is to help identify precious logs in applications
@@ -24,9 +29,9 @@ log('Success', data)
 log('Warning', data)
 log('Error', data)
 ```
-Output:
+### Output:<br />
 ![default](/imgs/default.png)
-
+<br /><br /><br />
 The second you can define the color, the styles and the message that will be displayed. Just passing an array with the styles you want
 
 ```javascript
@@ -38,7 +43,8 @@ const setupColor = ['BgBlue', 'Bright', 'FgWhite'];
 log('Test Custom Log', data, setupColor);
 
 ```
-![custom](/imgs/custom.png)
+### Output:<br />
+![custom](/imgs/custom.png)<br /><br />
 Use our list below to find out what color and style parameters you can use:
 
 | parameter    	| output 	|
