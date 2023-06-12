@@ -1,6 +1,9 @@
 {
   "name": "color-log-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "description": "Package to style the logs of your codes and terminals",
+  "author": "Gabriel Escabora <gabrielescabora@gmail.com>",
+  "repository": "git@github.com:escabora/color-log.git",
   "exports": {
     ".": {
       "import": "./dist/main.es.js",
