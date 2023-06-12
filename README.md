@@ -1,7 +1,7 @@
 [![Version](https://img.shields.io/npm/v/color-log-package.svg)](https://www.npmjs.com/package/color-log-package)
 [![Downloads Total](https://img.shields.io/npm/dt/color-log-package.svg)](https://www.npmjs.com/package/color-log-package)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/escabora/color-log-package/blob/main/LICENSE.md)
-[![CodeFactor](https://www.codefactor.io/repository/github/escabora/color-log-package/badge)](https://www.codefactor.io/repository/github/escabora/color-log-package)
+[![CodeFactor](https://www.codefactor.io/repository/github/escabora/color-log/badge)](https://www.codefactor.io/repository/github/escabora/color-log)
 
 # Color Log Package
 
